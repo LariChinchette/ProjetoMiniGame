@@ -316,6 +316,7 @@ class PurpleManeScene extends Phaser.Scene {
 
                 answerA.setText('Voltar ao menu principal');
                 this.time.addEvent({ delay: 5000, callback: this.changeDialog(), callbackScope: this });
+             break;
 
             //-------------------------------------- MENU FINAL!! --------------------------------------//
             case 12:
