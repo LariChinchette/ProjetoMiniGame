@@ -145,6 +145,7 @@ class NittinScene extends Phaser.Scene {
 
                     characterSays.setText('Não citei minha vontade. Citei sobre o pedido dos desenvolvedores, e eu respeito eles. (Elu te entrega um olhar frio)');
                     answerA.setText('Clique em qualquer opção para avançar');
+                    answerB.setText('');
                     answerC.setText('');
 
                     lovemeter_n = lovemeter_n - 10;

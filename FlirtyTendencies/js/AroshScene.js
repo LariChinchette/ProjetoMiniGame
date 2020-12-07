@@ -144,6 +144,7 @@ class AroshScene extends Phaser.Scene {
 
                     characterSays.setText('... Se não quiser tudo bem... Mas meio que é o que tá no roteiro.');
                     answerA.setText('Clique em qualquer opção para avançar');
+                    answerB.setText('');
                     answerC.setText('');
 
                     lovemeter_a = lovemeter_a - 10;

@@ -145,6 +145,7 @@ class CrusherScene extends Phaser.Scene {
 
                     characterSays.setText('(Ele parece sério) A vila é mais que seu trabalho. Deveria levar mais a sério seus compromissos.');
                     answerA.setText('Clique em qualquer opção para avançar');
+                    answerB.setText('');
                     answerC.setText('');
 
                     lovemeter_c = lovemeter_c - 20;

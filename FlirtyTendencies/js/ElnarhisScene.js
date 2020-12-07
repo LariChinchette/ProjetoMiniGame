@@ -145,6 +145,7 @@ class ElnarhisScene extends Phaser.Scene {
 
                     characterSays.setText('E COMO ISSO SUPOSTAMENTE MELHORA ALGO? IMBECIL!');
                     answerA.setText('Clique em qualquer opção para avançar');
+                    answerB.setText('');
                     answerC.setText('');
 
                     lovemeter_e = lovemeter_e - 10;

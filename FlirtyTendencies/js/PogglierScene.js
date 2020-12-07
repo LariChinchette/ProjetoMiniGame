@@ -143,6 +143,7 @@ class PogglierScene extends Phaser.Scene {
 
                     characterSays.setText('(ele ri) Pois é, Pois é, mas dá pra dar umas voltinhas');
                     answerA.setText('Clique em qualquer opção para avançar');
+                    answerB.setText('');
                     answerC.setText('');
 
                     lovemeter_p = lovemeter_p + 10;

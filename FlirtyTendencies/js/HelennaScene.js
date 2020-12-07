@@ -146,6 +146,7 @@ class HelennaScene extends Phaser.Scene {
 
                     characterSays.setText('Não precisa ficar com medo. Está seguro em minha companhia! Não vou deixar nada ruim acontecer ok!?');
                     answerA.setText('Clique em qualquer opção para avançar');
+                    answerB.setText('');
                     answerC.setText('');
 
                     lovemeter_h = lovemeter_h + 10;

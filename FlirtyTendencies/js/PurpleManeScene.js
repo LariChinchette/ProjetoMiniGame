@@ -303,7 +303,6 @@ class PurpleManeScene extends Phaser.Scene {
             case 11:
                 //finais de acordo com o relacionamento
                 console.log('final rolando...' + lovemeter_pm);
-                console.log('botão clicado ' + clicked);
 
                 if (lovemeter_pm <= 33) {
                     characterSays.setText('Bem... Eu estava errado. Os devs me trollaram de novo. Você é insuportável. Por favor termina o jogo ai...');
@@ -311,7 +310,7 @@ class PurpleManeScene extends Phaser.Scene {
                 else if (lovemeter_pm > 33 && lovemeter_pm < 66) {
                     characterSays.setText('(... A noite continua, foi bem divertida, porém nada aconteceu. Seria isso uma friend zone?)');
                 }
-                else if (lovemeter_pm <= 66) {
+                else if (lovemeter_pm >= 66) {
                     characterSays.setText('(Depois da janta, você vira a sobremesa!)');
                 }
 

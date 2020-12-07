@@ -144,6 +144,7 @@ class RyuktoScene extends Phaser.Scene {
 
                     characterSays.setText('Eba! Estava com medo de você não gostar...');
                     answerA.setText('Clique em qualquer opção para avançar');
+                    answerB.setText('');
                     answerC.setText('');
 
                     lovemeter_r = lovemeter_r + 10;
